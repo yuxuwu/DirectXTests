@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-#include "../include/error_handling/WindowsErrorHandling.h"
+#include "WindowsErrorHandling.h"
 
 
 using namespace WindowsErrorHandling;

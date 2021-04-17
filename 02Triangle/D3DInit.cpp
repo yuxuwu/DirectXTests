@@ -2,8 +2,6 @@
 // Created by Yu on 4/16/2021.
 //
 
-#include "platform/Window.h"
-#include "pch.h"
 #include "D3DInit.h"
 
 static void setupD3DDeviceAndSwapChain(const HWND&);

@@ -2,7 +2,7 @@
 // Created by Yu on 1/17/2021.
 //
 
-#include "../include/error_handling/FileHandling.h"
+#include "FileHandling.h"
 
 std::string Utils::importFileToString(std::string filename) {
 	std::string result;

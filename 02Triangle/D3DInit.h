@@ -5,6 +5,8 @@
 #ifndef DIRECTXTESTS_D3DINIT_H
 #define DIRECTXTESTS_D3DINIT_H
 
+#include <lib.h>
+
 void D3D_INIT(const HWND&);
 
 extern D3D_FEATURE_LEVEL d3dFeatureLevel;

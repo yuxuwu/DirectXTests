@@ -9,7 +9,7 @@
 #define UNICODE
 #endif
 
-#include "pch.h"
+#include "../pch.h"
 
 
 class Window {

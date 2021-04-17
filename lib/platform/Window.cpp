@@ -2,7 +2,7 @@
 // Created by Yu on 1/17/2021.
 //
 
-#include "platform/Window.h"
+#include "Window.h"
 #include <iostream>
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);

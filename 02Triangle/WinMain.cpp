@@ -2,8 +2,7 @@
 #define UNICODE
 #endif
 
-#include "pch.h"
-#include "platform/Window.h"
+#include <lib.h>
 #include "D3DInit.h"
 
 D3D_FEATURE_LEVEL d3dFeatureLevel;
