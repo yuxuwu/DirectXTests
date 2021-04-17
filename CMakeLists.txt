@@ -11,6 +11,7 @@ set(UTILS_SOURCE
         lib/error_handling/WindowsErrorHandling.cpp
 
         lib/graphics/D3DInit.cpp
+        lib/graphics/Shader.cpp
 
         lib/platform/Window.cpp)
 add_library(lib STATIC ${UTILS_SOURCE})
@@ -23,7 +24,7 @@ target_include_directories(01ClearScreen PRIVATE lib/include)
 add_dependencies(01ClearScreen lib)
 target_link_libraries(01ClearScreen lib)
 
-add_executable(02Triangle WIN32 02Triangle/WinMain.cpp)
+add_executable(02Triangle WIN32 lib/graphics/VertexBuffer.cpp 02Triangle/WinMain.cpp)
 target_include_directories(02Triangle PRIVATE lib/include)
 add_dependencies(02Triangle lib)
 target_link_libraries(02Triangle lib)
