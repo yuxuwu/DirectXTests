@@ -3,7 +3,6 @@
 #endif
 
 #include <lib.h>
-#include "D3DInit.h"
 
 D3D_FEATURE_LEVEL d3dFeatureLevel;
 Microsoft::WRL::ComPtr<ID3D11Device> d3dDevice;
